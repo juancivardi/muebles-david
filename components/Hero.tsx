@@ -15,7 +15,7 @@ export default function Hero() {
               sizes="(max-width: 640px) 100vw, 400px"
           />
         </div>
-        <div className="relative mx-auto w-full max-w-[750px]">
+        <div className="relative mx-auto w-full max-w-[900px]">
           <Image
               src="/images/muebles-png.png"
               alt="Mueble de estilo industrial"
