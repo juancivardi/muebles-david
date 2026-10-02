@@ -10,9 +10,13 @@ export default function Projects() {
     "/images/mueblesPNG/mueble2b.png",
     "/images/mueblesPNG/mueble3a.png",
   ];
+
   return (
     <main>
       <section className="mx-auto">
+        <div>
+          <p>Nuestros últimos proyectos</p>
+        </div>
         <Carousel images={images}/>
       </section>
     </main>
