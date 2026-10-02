@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Hero from "@/components/Hero.tsx";
-import Projects from "@/components/Projects.tsx";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
