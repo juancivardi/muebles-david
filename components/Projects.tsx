@@ -9,15 +9,40 @@ export default function Projects() {
     "/images/mueblesPNG/mueble2a.png",
     "/images/mueblesPNG/mueble2b.png",
     "/images/mueblesPNG/mueble3a.png",
-  ];
+    ];
 
   return (
     <main>
-      <section className="mx-auto">
-        <div>
-          <p>Nuestros últimos proyectos</p>
+      <section className="mx-auto max-w-7xl px-6 py-20">
+        <div className="mb-10 text-center">
+          <p className="mb-2 text-sm font-medium uppercase tracking-widest text-gray-500">
+            Nuestros trabajos
+          </p>
+
+          <h2 className="text-3xl font-semibold tracking-tight text-gray-900 md:text-4xl">
+            Nuestros últimos proyectos
+          </h2>
+
+          <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+            Conocé algunos de los muebles que fabricamos y descubrí la calidad
+            de nuestro trabajo.
+          </p>
         </div>
-        <Carousel images={images}/>
+
+        <Carousel>
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="min-w-0 flex-[0_0_70%] md:flex-[0_0_35%]"
+            >
+              <img
+                src={image}
+                alt={`Mueble ${index + 1}`}
+                className="block w-full h-auto"
+              />
+            </div>
+          ))}
+        </Carousel>
       </section>
     </main>
   );
