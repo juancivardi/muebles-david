@@ -1,42 +1,43 @@
 "use client";
+
 import Link from "next/link";
-import { useState } from "react"
-import WhatsAppButton from "@/components/ui/WhatsappButton";
 
 export default function Navbar() {
-
   return (
-    <header>
-    <nav className="w-full flex border-b border-black">
-      <div className="flex w-full px-6 py-4 items-center justify-between">
-        <div>
-          <p>Muebles David</p>
-        </div>
-        <div className="gap-8 flex text-md font-bold">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        {/* Logo / Nombre */}
+        <Link
+          href="/"
+          className="text-lg font-semibold tracking-tight text-gray-900"
+        >
+          Muebles David
+        </Link>
+
+        {/* Navegación */}
+        <div className="hidden items-center gap-8 text-sm font-medium text-gray-600 md:flex">
           <Link
-            href=""
-            className=""
+            href="#proyectos"
+            className="transition-colors hover:text-gray-900"
           >
             Muebles
           </Link>
+
           <Link
-            href=""
-            className=""
+            href="#como-trabajamos"
+            className="transition-colors hover:text-gray-900"
           >
-            Metodologia de trabajo
+            Cómo trabajamos
           </Link>
 
           <Link
-            href=""
-            className=""
+            href="#contacto"
+            className="transition-colors hover:text-gray-900"
           >
             Contacto
           </Link>
         </div>
-
-      </div>
-
-    </nav>
+      </nav>
     </header>
   );
 }
