@@ -13,17 +13,14 @@ export default function Projects() {
 
   return (
     <main>
-      <section className="mx-auto max-w-7xl px-6 py-20">
+      <section className="min-h-screen w-full px-6 py-20">
         <div className="mb-10 text-center">
-          <p className="mb-2 text-sm font-medium uppercase tracking-widest text-gray-500">
-            Nuestros trabajos
-          </p>
 
-          <h2 className="text-3xl font-semibold tracking-tight text-gray-900 md:text-4xl">
+          <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
             Nuestros últimos proyectos
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+          <p className="mx-auto mt-4 max-w-2xl">
             Conocé algunos de los muebles que fabricamos y descubrí la calidad
             de nuestro trabajo.
           </p>
