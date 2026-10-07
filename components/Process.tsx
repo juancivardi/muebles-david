@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Proceso() {
 
   return (
-    <main className="">
+    <main className="" id="proceso">
       <section className="px-6 pt-20">
         <div className="mx-auto max-w-4xl text-center">
 

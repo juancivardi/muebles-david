@@ -17,22 +17,23 @@ export default function Navbar() {
         {/* Navegación */}
         <div className="hidden items-center gap-8 text-sm font-medium text-gray-600 md:flex">
           <Link
-            href="#proyectos"
+            href="#muebles"
             className="transition-colors hover:text-gray-900"
           >
             Muebles
           </Link>
 
           <Link
-            href="#como-trabajamos"
+            href="#proceso"
             className="transition-colors hover:text-gray-900"
           >
             Cómo trabajamos
           </Link>
 
           <Link
-            href="#contacto"
+            href="https://wa.me/542216438679"
             className="transition-colors hover:text-gray-900"
+            target="_blank"
           >
             Contacto
           </Link>

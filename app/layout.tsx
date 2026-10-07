@@ -46,7 +46,7 @@ export default function RootLayout({
         <main>{children}</main> 
         <Footer />
         <WhatsappButton
-          className="fixed bottom-10 right-7 z-50 flex h-15 w-15 items-center justify-center rounded-full bg-gray-400 shadow-md transition hover:scale-105"
+          className="fixed bottom-10 right-7 z-50 flex h-15 w-15 items-center justify-center rounded-full bg-[#f0b37a] shadow-md transition hover:scale-105"
         >
           <FaWhatsapp className="text-2xl" />
         </WhatsappButton>

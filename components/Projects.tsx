@@ -12,7 +12,7 @@ export default function Projects() {
     ];
 
   return (
-    <main>
+    <main id="muebles">
       <section className="w-full px-6 py-20">
         <div className="mb-10 text-center">
           <h2 className="mb-10 text-3xl uppercase tracking-widest md:text-4xl">
