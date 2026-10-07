@@ -13,24 +13,18 @@ export default function Projects() {
 
   return (
     <main>
-      <section className="min-h-screen w-full px-6 py-20">
+      <section className="w-full px-6 py-20">
         <div className="mb-10 text-center">
-
-          <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
+          <h2 className="mb-10 text-3xl uppercase tracking-widest md:text-4xl">
             Nuestros últimos proyectos
           </h2>
-
-          <p className="mx-auto mt-4 max-w-2xl">
-            Conocé algunos de los muebles que fabricamos y descubrí la calidad
-            de nuestro trabajo.
-          </p>
         </div>
 
         <Carousel>
           {images.map((image, index) => (
             <div
               key={index}
-              className="min-w-0 flex-[0_0_70%] md:flex-[0_0_35%]"
+              className="min-w-0 flex-[0_0_70%] md:flex-[0_0_25%]"
             >
               <img
                 src={image}

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <main>
-      <section className="relative grid grid-cols-1 overflow-hidden bg-[#faf5e6] px-6 md:grid-cols-2 md:px-20 md:items-center">
+      <section className="relative grid grid-cols-1 overflow-hidden bg-[#faf5e6] px-6 pb-40 md:grid-cols-2 md:px-20 md:items-center">
         <div className="relative mx-auto w-full max-w-[900px]">
           <Image
             src="/images/muebles-hero.png"
